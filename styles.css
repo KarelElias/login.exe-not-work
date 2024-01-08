@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8, #fff, #F7A8B8, #55CDFC); /* Barevné schéma transgender vlajky */
+}
+
+#login-container {
+    width: 400px; /* Zvětšena šířka pro lepší prostor pro obsah */
+    padding: 30px; /* Zvětšeno odsazení pro lepší vizuální efekt */
+    border-radius: 10px;
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8); /* Barevné schéma transgender vlajky pro container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #55CDFC, #F7A8B8); /* Barevné schéma transgender vlajky pro tlačítko */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #1a82c4, #b45f79); /* Barevné schéma transgender vlajky při najetí myší na tlačítko */
+}
